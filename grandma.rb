@@ -16,11 +16,11 @@ def speak_to_grandma(phrase)
   output = nil
   
   if phrase == "I LOVE YOU GRANDMA!"
-    ouput = "I LOVE YOU TOO PUMPKIN!"
+    output = "I LOVE YOU TOO PUMPKIN!"
   elsif phrase != phrase.upcase
     output = "HUH?! SPEAK UP, SONNY!"
   else
-    ouput = "NO, NOT SINCE 1938!"
+    output = "NO, NOT SINCE 1938!"
   end 
   
   output
